@@ -1,7 +1,7 @@
 {
   "name": "chinese-chess",
   "version": "1.0.0",
-  "description": "a project for chinessChess of websocket",
+  "description": "a project for chineseChess of websocket",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,16 +23,17 @@
   },
   "devDependencies": {
     "chalk": "^4.0.0",
+    "ip": "^1.1.5",
     "path": "^0.12.7"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webForNode/chinesChess.git"
+    "url": "git+https://github.com/JadeXusq/chineseChess.git"
   },
-  "author": "webForNode",
+  "author": "JadeXusq",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/webForNode/chinesChess/issues"
+    "url": "https://github.com/JadeXusq/chineseChess/issues"
   },
-  "homepage": "https://github.com/webForNode/chinesChess#readme"
+  "homepage": "https://github.com/JadeXusq/chineseChess#readme"
 }

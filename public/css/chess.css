@@ -1,0 +1,59 @@
+/**
+ * @infor 象棋样式表
+ * @path  ./css/chess.css
+ * @user  xsq
+ * @date  2020-04-28 11:26:49
+ */
+
+#canvasWrap {
+	width: 600px;
+	height: 550px;
+	margin: 50px auto;
+}
+
+#curActive {
+	font-size: 20px;
+	font-weight: bold;
+	/*text-align: center;*/
+	margin-left: 230px;
+}
+#canvas {
+	float: left;
+	background: #EAC591;
+}
+.container{
+	position: absolute;
+	right:15px;
+	top:50px;
+	text-align: center;
+}
+.battleInfo{
+	color:blue;
+	text-align: center;
+	margin:10px 0;
+}
+.battleInfo i{
+	margin:0 10px;
+	font-style:normal;
+}
+.redTeam{
+	color:red;
+	font-size:20px;
+	font-weight: bolder;
+}
+.blackTeam{
+	color:black;
+	font-size:20px;
+	font-weight: bolder;
+}
+.currentTeam span{
+	font-size:20px;
+	color:red;
+}
+table{
+	margin-top:15px;
+}
+table tr th,table tr td{
+	width:40px;
+	height:40px;
+}

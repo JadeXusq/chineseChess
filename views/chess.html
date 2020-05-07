@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/weui.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/chess.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="userPanel">
+				<span>用户名：</span>
+				<span id="username"></span>
+			</div>
+			<div class="battleInfo">
+				<span class="redTeam"></span><i>vs</i><span class="blackTeam"></span>
+			</div>
+			<div class="currentTeam">
+				<span>红</span>方思考中<i>..</i>
+			</div>
+			<table border="1" cellspacing="0" id="rank">
+			</table>
+		</div>
+		<div id = "canvasWrap">
+			<div id = "curActive"></div>
+			<canvas id = "canvas" width="500" height="550">
+			</canvas>
+		</div>
+	    <div class="js_dialog" id="iosDialog" style="display: none;">
+	        <div class="weui-mask"></div>
+	        <div class="weui-dialog">
+	            <div class="weui-dialog__bd">提交成功</div>
+	            <div class="weui-dialog__ft">
+	                <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="know1">知道了</a>
+	            </div>
+	        </div>
+	    </div>
+		<script src="./js/weui.min.js"></script>
+		<script src="./js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="./js/utils.js"></script>
+		<script type="text/javascript" src="./js/chess.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
+	</body>
+</html>
