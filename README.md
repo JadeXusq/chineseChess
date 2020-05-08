@@ -11,16 +11,16 @@
 
 ## 代码目录结构
   - controller              ------控制器目录
-  	index.js                ------主控制器，初始化应用、路由及静态文件目录
-  	socketController.js     ------websocket控制器，封装websocket创建过程，抛出初始化websocket事件回调方法
+    index.js                ------主控制器，初始化应用、路由及静态文件目录
+    socketController.js     ------websocket控制器，封装websocket创建过程，抛出初始化websocket事件回调方法
   - lib
-    - db        			      ------数据库相关方法封装
-  - public        			    ------前端静态文件存放位置
-  - views        			      ------前端路由视图存放位置
-  	chess.html       		    ------详情路由视图文件
-  	login.html              ------登录路由视图文件
-  - app.js        			    ------后台入口文件
-  - rank.sql        		    ------数据库表创建文件，可导入到MySQL生成对应表
+    - db                    ------数据库相关方法封装
+  - public                  ------前端静态文件存放位置
+  - views                   ------前端路由视图存放位置
+    chess.html              ------详情路由视图文件
+    login.html              ------登录路由视图文件
+  - app.js                  ------后台入口文件
+  - rank.sql                ------数据库表创建文件，可导入到MySQL生成对应表
 
 ## 安装数据库及建表
  - 下载mysql(https://dev.mysql.com/downloads/mysql),
@@ -48,3 +48,8 @@
 ## 浏览器运行开始对战（第三人以上可观战）
  - 浏览器访问，多个浏览器通过( http://localhost:8882/login )登录,进入象棋对战页面
  - 至此项目搭建完成，用你的智慧去赢得这场胜利吧！
+
+## 后期需求与计划
+ - 优化对战界面
+ - 优化象棋类代码，改用ES6 Class对象实现
+ - 考虑实现小程序版多人象棋对战
