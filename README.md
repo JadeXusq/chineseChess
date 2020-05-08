@@ -10,6 +10,7 @@
  - git clone https://github.com/JadeXusq/chineseChess.git
 
 ## 代码目录结构
+```javascript
   - controller              ------控制器目录
     index.js                ------主控制器，初始化应用、路由及静态文件目录
     socketController.js     ------websocket控制器，封装websocket创建过程，抛出初始化websocket事件回调方法
@@ -21,6 +22,7 @@
     login.html              ------登录路由视图文件
   - app.js                  ------后台入口文件
   - rank.sql                ------数据库表创建文件，可导入到MySQL生成对应表
+ ```
 
 ## 安装数据库及建表
  - 下载mysql(https://dev.mysql.com/downloads/mysql),
