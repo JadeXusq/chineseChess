@@ -159,5 +159,5 @@ function setUserInfo(arr, user){
 	arr.push({
 		currentUser: user,
 		isRed: isRed ? 'black' : 'red'
-	});
+	})
 }
