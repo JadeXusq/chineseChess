@@ -1,6 +1,6 @@
 {
   "name": "chinese-chess",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a project for chineseChess of websocket",
   "main": "app.js",
   "scripts": {
