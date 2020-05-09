@@ -14,8 +14,7 @@ $(document).ready( _ => {
 		window.location.href = '/login';
 
 	// 初始化象棋
-	let cChess = new chinaChess()
-	cChess.init();
+	let cChess = new ChinaChess()
 
 	//设置等待下棋
 	wait();
